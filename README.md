@@ -60,3 +60,9 @@ G --> H[Classifier 6 classes]
 
 ![Transformer Encoder](img7.png)
 ![Transformer Encoder](img8.png)
+
+
+## Global Pooling
+
+![Global Pooling](img9.png)
+![Global Pooling](img10.png)
