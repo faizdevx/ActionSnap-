@@ -24,12 +24,13 @@
 
 ## ⚙️ Flow Overview
 
+
 ```mermaid
 graph LR
-A[32-frame Video] --> B[OpenPose Keypoints]
-B --> C[(32,36) Tensor]
-C --> D[Patch Embedding → 128-dim]
-D --> E[Positional Encoding]
-E --> F[Transformer Encoder]
-F --> G[Global Avg Pooling]
-G --> H[Classifier → 6 Classes]
+A[32 frame video] --> B[OpenPose keypoints]
+B --> C[Tensor 32 x 36]
+C --> D[Patch embedding 128 dim]
+D --> E[Positional encoding]
+E --> F[Transformer encoder]
+F --> G[Global average pooling]
+G --> H[Classifier 6 classes]
