@@ -20,3 +20,16 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-ComputerVision-5C3EE8?logo=opencv&logoColor=white)
 
 </p>
+
+
+## ⚙️ Flow Overview
+
+```mermaid
+graph LR
+A[32-frame Video] --> B[OpenPose Keypoints]
+B --> C[(32,36) Tensor]
+C --> D[Patch Embedding → 128-dim]
+D --> E[Positional Encoding]
+E --> F[Transformer Encoder]
+F --> G[Global Avg Pooling]
+G --> H[Classifier → 6 Classes]
