@@ -41,4 +41,4 @@ G --> H[Classifier 6 classes]
 
 ![video ingestion](img1.png)
 
-![video ingestion](img2.png)
+![video ingestion](img3.png)
