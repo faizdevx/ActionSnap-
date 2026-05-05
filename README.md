@@ -53,3 +53,10 @@ G --> H[Classifier 6 classes]
 
 ![positional encoding](img5.png)
 ![postional encoding](img6.png)
+
+
+## Transformer Encoder
+
+
+![Transformer Encoder](img7.png)
+![Transformer Encoder](img8.png)
