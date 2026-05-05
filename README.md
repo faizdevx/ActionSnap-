@@ -66,3 +66,7 @@ G --> H[Classifier 6 classes]
 
 ![Global Pooling](img9.png)
 ![Global Pooling](img10.png)
+
+## CLASSIFIER HEAD
+
+![cLASSIFIER HEAD](img11.png)
