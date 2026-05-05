@@ -1,7 +1,8 @@
 # ActionSnap
 
+<p align="center">
 
-```                                                                                         
+```
 ▄████▄  ▄▄▄▄ ▄▄▄▄▄▄ ▄▄  ▄▄▄  ▄▄  ▄▄ ▄█████ ▄▄  ▄▄  ▄▄▄  ▄▄▄▄  
 ██▄▄██ ██▀▀▀   ██   ██ ██▀██ ███▄██ ▀▀▀▄▄▄ ███▄██ ██▀██ ██▄█▀ 
 ██  ██ ▀████   ██   ██ ▀███▀ ██ ▀██ █████▀ ██ ▀██ ██▀██ ██    
@@ -34,17 +35,22 @@ D --> E[Positional encoding]
 E --> F[Transformer encoder]
 F --> G[Global average pooling]
 G --> H[Classifier 6 classes]
-
 ```
+
 Video Ingestion
 <p align="center"> <img src="img1.png" width="300"/> <img src="img3.png" width="300"/> </p>
+
 Patch Embedding
 <p align="center"> <img src="img2.png" width="300"/> <img src="img4.png" width="300"/> </p>
+
 Positional Encoding
 <p align="center"> <img src="img5.png" width="300"/> <img src="img6.png" width="300"/> </p>
+
 Transformer Encoder
 <p align="center"> <img src="img7.png" width="300"/> <img src="img8.png" width="300"/> </p>
+
 Global Average Pooling
 <p align="center"> <img src="img9.png" width="300"/> <img src="img10.png" width="300"/> </p>
+
 Classifier Head
-<p align="center"> <img src="img11.png" width="350"/> </p> ```
+<p align="center"> <img src="img11.png" width="350"/> </p>
