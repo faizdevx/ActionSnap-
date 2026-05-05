@@ -34,3 +34,10 @@ D --> E[Positional encoding]
 E --> F[Transformer encoder]
 F --> G[Global average pooling]
 G --> H[Classifier 6 classes]
+
+
+## video ingestion 
+
+![video ingestion](img1.png)
+
+![video ingestion](img2.png)
