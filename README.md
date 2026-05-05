@@ -42,3 +42,8 @@ G --> H[Classifier 6 classes]
 ![video ingestion](img1.png)
 
 ![video ingestion](img3.png)
+
+## Patch Embedding
+
+![patch ingestion](img2.png)
+![patch ingestion](img4.png)
