@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs
+lightning_logs/
+runs/
+checkpoints/
+
+# Dataset / large downloaded data
+content/
+RNN-HAR-2D-Pose-database/
+RNN-HAR-2D-Pose-database.zip
+
+# Local model artifacts
+models/
+*.ckpt
+*.pth
+*.pt
+
+# Local app logs
+*.log
+webcam_app.out.log
+webcam_app.err.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
