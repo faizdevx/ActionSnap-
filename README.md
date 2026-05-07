@@ -242,6 +242,24 @@ Stop-Process -Id <PID>
 - The model was trained only on six action classes. If you sit still, it may still choose one of those six classes because `IDLE` was intentionally removed.
 - For best predictions, keep one person visible, avoid extreme camera angles, and keep arms inside the frame.
 
+# Future Work
+
+The current system is trained on a small dataset containing only six types of human activities using a modest 2D pose dataset. Future research will aim to scale the architecture, improve its robustness, and enhance its application to real-life scenarios.
+
+Future research will include:
+
+- Training on large-scale human activity datasets including NTU RGB+D and Kinetics pose datasets
+- Increasing the variety of human activities and interaction activities recognized by the system
+- Enhancing the generalizability of the system in regards to viewpoint variations, lighting, and occlusions
+- Implementing the ability to recognize multiple persons’ activities simultaneously
+- Including temporal attention visualization to improve explainability
+- Speeding up inference time on edge devices and real-time applications
+- Deploying the system via Docker and cloud computing inference pipelines
+- Investigating the potential of implementing 3D pose estimation to better understand human motion
+- Fine-tuning Transformer models on sequential 2D pose datasets
+
+Currently, experiments on large-scale datasets are being conducted to explore the scalability and practicality of the architecture in real-life situations.
+
 
 #Author
 Faizal
